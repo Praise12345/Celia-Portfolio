@@ -1,0 +1,610 @@
+/*The Head Section styling*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.overall-container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%; 
+  height: 40px;
+  }
+
+.left-section {
+  display: flex;
+  flex: 1;
+  font-weight: bold;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 24px;
+  padding-left: 20px;
+  color:  rgb(70, 65, 65);
+  }
+
+.portfolio {
+color: palevioletred;
+}
+
+
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-left: 25px;
+     
+}
+
+ul {
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 0px;
+  transition: background-color 0.7s;
+  height: 50px;
+  padding-top: 5px;
+  }
+
+
+ul a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(253, 250, 250);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+
+ul :hover{
+  line-height: 3px;
+  color: aqua;
+  }
+
+  ul :active {
+    color: rgb(26, 24, 21);
+  }
+
+/*The Head Section styling Ends*/
+
+
+/*The body Styling Begins*/
+
+.general{
+margin: 0px;
+padding: 0px;
+display: grid;
+grid-template-columns: 250px 400px;
+padding-left: 300px;
+padding-top: 50px;
+margin-bottom: 200px;
+}
+
+/*The Responsive Designing Begins*/
+@media (max-width:642px) {
+.general{
+  grid-template-columns:0.5fr;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+ }
+
+.overall-container {
+  flex: 0.5fr 4fr;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  }
+  .overall-container ul {
+    padding: 0px;
+    margin: 0px;
+    padding-right: 25px;
+  }
+
+.overall-container a {
+  color: palevioletred;
+  padding: 0px;
+  margin: 0px;
+  font-size: 8px;
+}
+
+.left-section {
+  font-size: medium;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul:hover {
+  color: white;
+}
+
+ul:active {
+  color: black;
+}
+
+.general-profile {
+  grid-template-columns: 1fr;
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile-write-up {
+  padding: 0px;
+  margin: 0px;
+  }
+
+p {
+  font-size: small;
+  padding: 0px;
+  margin: 0px;
+}
+
+.overall-project-container {
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  margin: 0px;
+}
+
+.advert {
+  padding: 0px;
+  margin: 0px;
+}
+  }
+/*The Responsive Designing Ends*/
+
+
+
+.image {
+  width: 400px;
+  margin: 0px;
+  display: grid;
+  padding-left: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.image-width {
+  width: 400px;
+  margin: 0px;
+}
+
+.write-up {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  width: 250px;
+  margin-right: 50px;
+
+}
+
+
+
+.celia {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight:600;
+  padding-top: 80px
+ 
+}
+
+.actress {
+margin: 0px;
+padding: 0px;
+font-style: italic;
+color: palevioletred;
+font-weight: bolder;
+font-size: small;
+}
+
+/*The body Styling Ends*/
+
+
+/*The profile styling begins*/
+
+
+.general-profile{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: black;
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  }
+  
+  .general-image-width {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    margin-left: 40px;
+       
+  }
+  
+  .profile-image-width {
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .profile-write-up {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    width: 80%;
+    margin-left: 100px;
+    padding-left: 50px;
+             
+  }
+  
+    
+.profile-write-up p {
+
+  color: white;
+  font-family: 'Lora', serif, Arial;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.profile-write-up h1 {
+  color: white;
+  font-family: 'Lora', serif, Arial;
+  padding: 0px;
+  margin: 0px;
+  height: 50%;
+  padding-top: 10px;
+  font-size: 60px;
+  padding-bottom: 0px;
+}
+
+.video-vixen {
+  color: palevioletred;
+  
+}
+
+.major-write-up {
+  line-height: 22px;
+  padding-top: 24px;
+  text-align: justify;
+}
+
+.minor-write-up {
+  font-size: 24px;
+}
+
+.button {
+  background-color: palevioletred;
+  color: azure;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.button:active {
+  color: black;
+}
+/*The profile styling ends*/
+
+
+/*The projects completed styling begins*/
+
+.overall-project-container{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(161, 159, 159);
+  margin-top: 70px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  column-gap: 30px;
+  row-gap: 90px;
+  padding-left: 15px;
+  }
+
+
+  .films-project {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+    
+  }
+
+  .tv-web-project {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+  }
+
+  .shorts-project {
+    width: 90%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+  }
+
+  .theatre-project {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+  }
+
+  .adverts-project {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+  }
+
+  .music-video-project {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    line-height: 30px;
+    vertical-align: top;
+  }
+
+  .films {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+  }
+
+  .tv {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+  }
+
+  .shorts {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+  }
+
+  .theatre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    
+  }
+
+  .adverts {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+  }
+
+  .music {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+  }
+/*The projects completed styling ends*/
+
+
+  /*The Contact info Section Styling Begins*/
+
+ .general-contact-info-div {
+  padding: 0px;
+  padding-left: 200px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 20px;
+  padding-top: 50px;
+  }
+
+.instagram-div {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.telephone-div {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.twitter-div {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.gmail-div {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.telephone-icon {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 80%;
+  padding-left: 50px;
+}
+
+.twitter-icon {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 80%;
+  padding-left: 20px;
+}
+
+
+.gmail-icon {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 80%;
+  padding-left: 60px;
+}
+
+.instagram-icon {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 80%;
+  padding-left: 20px;
+  }
+
+.gmail-link {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 40%;
+}
+
+.twitter-link {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 10%;
+  }
+
+.telephone-link {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 40%;
+}
+
+.instagram-link {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  width: 10%;
+}
+
+.instagram {
+  width: 20%;
+}
+
+.telephone {
+  width: 20%;
+}
+
+.twitter {
+  width: 20%
+}
+
+.gmail {
+  width: 20%
+}
+
+a {
+  text-decoration: none;
+}
+
+.insta-link {
+  text-decoration: none;
+  color: palevioletred;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.insta-link:hover{
+  color: red;
+}
+
+.insta-link:active{
+  color: black;
+}
+
+.phone-number {
+  text-decoration: none;
+  color: palevioletred;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.tweet-link {
+  text-decoration: none;
+  color: palevioletred;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.tweet-link:hover{
+  color: red;
+}
+
+.tweet-link:active{
+  color: black;
+}
+
+.mail {
+  text-decoration: none;
+  color: palevioletred;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.advert {
+  background-color: black;
+  padding-left: 480px;
+}
+.adverts {
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.advert a {
+  color: palevioletred;
+}
+
+.advert a:hover {
+color: red;
+}
